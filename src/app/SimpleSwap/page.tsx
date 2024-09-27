@@ -8,7 +8,7 @@ import {
   TokenIn,
   TokenOut,
 } from "@/config/state/atoms";
-import Approve from "./../hooks/Approve";
+import Approve from "../../hooks/Approve";
 import Swap from "@/hooks/Swap";
 import { HeightIcon } from "@radix-ui/react-icons";
 import { useState } from "react";
@@ -106,7 +106,7 @@ export default function Home() {
                 <div className="text-white font-medium">{tokenTo}</div>
               </div>
               <input
-                type="number"
+                type="Text"
                 className="w-[150px] bg-transparent text-white text-right outline-none"
                 placeholder="Enter amount"
               />
